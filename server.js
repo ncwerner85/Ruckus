@@ -59,7 +59,7 @@ require("./routes/biopage-routes.js")(app);
 db.sequelize.sync().then(() => {
   app.listen(PORT, () => {
     console.log(
-      "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
+      "==> 🌎+  Listening on port %s. Visit http://localhost:%s/ in your browser.",
       PORT,
       PORT
     );
